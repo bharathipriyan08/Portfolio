@@ -11,11 +11,11 @@ const ServiceCard = ({ service }) => (
       <div
         className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         style={{ background: '#151030' }}>
-        {/* <img
+        <img
           src={service.icon}
           alt='some_icon'
           className='w-16 h-16 object-contain'
-        /> */}
+        />
         <h3 className='text-white text-[20px] font-bold text-center'>
           {service.title}
         </h3>
